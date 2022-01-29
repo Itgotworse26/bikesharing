@@ -987,7 +987,7 @@
     <dashboard name='Citibike Report' type='storyboard'>
       <style>
         <style-rule element='story-point-caption'>
-          <format attr='width' value='694' />
+          <format attr='width' value='632' />
         </style-rule>
       </style>
       <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
@@ -997,7 +997,7 @@
             <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
             <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
             <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
-              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
+              <flipboard active-id='6' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='The number of bikes checked out peak at 5 minutes into the first hour, with 146,752 bikes checked out.' captured-sheet='Checkout Time for Users' id='1' />
                   <story-point caption='Checkout times for genders are about the same; male users peak 5 minutes in at 108,087 users while female users peak at 34,151 users 6 minutes in.' captured-sheet='Checkout Times by Gender' id='3' />
@@ -1239,7 +1239,7 @@
     </window>
     <window class='dashboard' maximized='true' name='Citibike Report'>
       <viewpoints />
-      <active id='-1' />
+      <active id='4' />
       <simple-id uuid='{44539323-F338-4F3E-9A56-689FFDA589D0}' />
     </window>
   </windows>
