@@ -14,7 +14,7 @@
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
-  <repository-location id='bikesharing_16434875787110' path='/workbooks' revision='1.0' />
+  <repository-location id='bikesharing_16434877477600' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -987,7 +987,7 @@
     <dashboard name='Citibike Report' type='storyboard'>
       <style>
         <style-rule element='story-point-caption'>
-          <format attr='width' value='607' />
+          <format attr='width' value='694' />
         </style-rule>
       </style>
       <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
@@ -997,7 +997,7 @@
             <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
             <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
             <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
-              <flipboard active-id='7' nav-type='caption' show-nav-arrows='true'>
+              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='The number of bikes checked out peak at 5 minutes into the first hour, with 146,752 bikes checked out.' captured-sheet='Checkout Time for Users' id='1' />
                   <story-point caption='Checkout times for genders are about the same; male users peak 5 minutes in at 108,087 users while female users peak at 34,151 users 6 minutes in.' captured-sheet='Checkout Times by Gender' id='3' />
