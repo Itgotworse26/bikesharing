@@ -22,49 +22,49 @@ The Checkout Times tells us that most trips will last 5 minutes, with most check
 
 * Checkout Times
 
-![Checkout Times]()
+![Checkout Times](https://github.com/Itgotworse26/bikesharing/blob/main/Images/Story%201%20Checkout%20Times.png)
 
 
 Gender and Checkout Times shows that even though male riders outnumber female riders even at their respective peaks (108,087 at 5 PM versus 34,151 at 6 PM), their peaks are close to each other's. This means that peak times are not too different.
 
 * Gender and Checkout Times
 
-![Gender and Checkout Times]()
+![Gender and Checkout Times](https://github.com/Itgotworse26/bikesharing/blob/main/Images/Story%202%20Gender%20and%20Checkout%20Times.png)
 
 
 The peak stopptime according to Stoptimes by Hour is 6 PM on Thursday with 44,901 check-ins. If maintenance is going to be performed on the bike fleet, Thursday evening to Friday Morning would be the busiest as that is when the most bikes will be checked in.
 
 * Stoptimes by Hour
 
-![Stoptimes by Hour]()
+![Stoptimes by Hour](https://github.com/Itgotworse26/bikesharing/blob/main/Images/Story%203%20Stoptimes%20by%20Hour.png)
 
 
 Stopttimes by Gender shows that for female and male users, 6 PM is the peak stoptime, with 11,335 and 30,746 check-ins respectively. Meanwhile, unknown genders peak at 5,670 check-ins in Saturday at 12 PM. This means that Saturday is when there are the most one-time or first-time users, especially ones that did not take the time to properly fill out their registration.
 
 * Stopttimes by Gender
 
-![Stopttimes by Gender]()
+![Stopttimes by Gender](https://github.com/Itgotworse26/bikesharing/blob/main/Images/Story%204%20Stoptimes%20by%20Gender.png)
 
 
 Starttimes by Usertype shows that checkouts for subscribers peak on Thursday with 259,316 Male, 88,282 female, and 6,082 unknown users.  Checkouts for customers peak on Saturday with 49,285 Male, 27,527 female, and 55,375 unknown users. As already shown by the Stopttimes by Gender above, this means that most one-time or first-time customers will check out bikes on Saturday. 
 
 * Starttimes by Usertype
 
-![Starttimes by Usertype]()
+![Starttimes by Usertype](https://github.com/Itgotworse26/bikesharing/blob/main/Images/Story%205%20Starttimes%20by%20Usertype.png)
 
 
 Usertypes by Gender demonstrates that the 1,372,601 male suscribers outnumber the 493,752 female and 34,006 unknown subscribers. However, the 191,525 unknown customers outnumber the 157,671 male and 94,679 female customers. Once again, it shows that one-time or first-time non-subscribers are probably not taking the time to fill out their information.
 
 * Usertypes by Gender
 
-![Usertypes by Gender]()
+![Usertypes by Gender](https://github.com/Itgotworse26/bikesharing/blob/main/Images/Story%206%20Usertypes%20by%20Gender.png)
 
 
 Map of Usertpes shows that most customer users start in Staten Island with Central Park being the next greatest start station; the pedestrian nature of both places could explain why must non-subscribers check out bikes at those stations. Both locations not being friendly for outside cars means that most one-time or first-time users will check out bikes from stations there. 
 
 * Map of Usertpes
 
-![Map of Usertpes]()
+![Map of Usertpes](https://github.com/Itgotworse26/bikesharing/blob/main/Images/Story%207%20Map%20of%20Usertypes.png)
 
 
 ## Summary
