@@ -14,7 +14,7 @@ Finally, you’ll add these new visualizations to the two you created in this mo
 
 
 ## Link to Dashboard
-[link to dashboard]("https://public.tableau.com/views/bikesharing_16434839766440/Story5StarttimesbyUsertype?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link")
+[link to dashboard](https://public.tableau.com/views/bikesharing_16434839766440/Story5StarttimesbyUsertype?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 ## Results
