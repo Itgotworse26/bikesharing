@@ -14,7 +14,7 @@
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
-  <repository-location id='bikesharing_16434877477600' path='/workbooks' revision='1.0' />
+  <repository-location id='bikesharing_16434877477600' path='/workbooks' revision='1.1' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -308,9 +308,12 @@
       <column-instance column='[Gender Data]' derivation='None' name='[none:Gender Data:nk]' pivot='key' type='nominal' />
       <column-instance column='[Usertype]' derivation='None' name='[none:Usertype:nk]' pivot='key' type='nominal' />
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Alvin Tran/Documents/My Tableau Repository/Datasources/Module14/bikesharing/citibike_data_df.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Alvin Tran/Documents/My Tableau Repository/Datasources/Module14/bikesharing/citibike_data_df.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/29/2022 07:57:24 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='citibike_data_df' increment-value='%null%' refresh-type='create' rows-inserted='2344224' timestamp-start='2022-01-29 19:56:05.730' />
+          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>Birth Year</remote-name>
@@ -324,6 +327,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>121</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>End Station Name</remote-name>
@@ -338,6 +342,7 @@
               <approx-count>1199</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Gender Data</remote-name>
@@ -352,6 +357,7 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Start Station Name</remote-name>
@@ -366,6 +372,7 @@
               <approx-count>1348</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Starttime</remote-name>
@@ -379,6 +386,7 @@
               <aggregation>Year</aggregation>
               <approx-count>1923906</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Stoptime</remote-name>
@@ -392,6 +400,7 @@
               <aggregation>Year</aggregation>
               <approx-count>1880783</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Tripduration</remote-name>
@@ -405,6 +414,7 @@
               <aggregation>Year</aggregation>
               <approx-count>10593</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Usertype</remote-name>
@@ -419,6 +429,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Bikeid</remote-name>
@@ -432,6 +443,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>67644</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>End Station Id</remote-name>
@@ -445,6 +457,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1199</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>End Station Latitude</remote-name>
@@ -458,6 +471,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1199</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>End Station Longitude</remote-name>
@@ -471,6 +485,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1199</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Gender</remote-name>
@@ -484,6 +499,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Start Station Id</remote-name>
@@ -497,6 +513,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1348</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Start Station Latitude</remote-name>
@@ -510,6 +527,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1348</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Start Station Longitude</remote-name>
@@ -523,6 +541,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1348</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[citibike_data_df.csv_694B930569014E6F933DE8AF30E37219]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -987,7 +1006,7 @@
     <dashboard name='Citibike Report' type='storyboard'>
       <style>
         <style-rule element='story-point-caption'>
-          <format attr='width' value='632' />
+          <format attr='width' value='904' />
         </style-rule>
       </style>
       <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
@@ -997,13 +1016,13 @@
             <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
             <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
             <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
-              <flipboard active-id='6' nav-type='caption' show-nav-arrows='true'>
+              <flipboard active-id='5' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='The number of bikes checked out peak at 5 minutes into the first hour, with 146,752 bikes checked out.' captured-sheet='Checkout Time for Users' id='1' />
-                  <story-point caption='Checkout times for genders are about the same; male users peak 5 minutes in at 108,087 users while female users peak at 34,151 users 6 minutes in.' captured-sheet='Checkout Times by Gender' id='3' />
+                  <story-point caption='Checkout times for genders are about the same; male users peak at 5 minutes in at 108,087 users while female users peak at 6 minutes in at 34,151 users.' captured-sheet='Checkout Times by Gender' id='3' />
                   <story-point caption='The largest stoptime is 6 PM on Thursday, with 44,901 check-ins of used bikes.' captured-sheet='Trips by Weekday per Hour' id='4' />
                   <story-point caption='For female and male users, 6 PM is the peak stoptime, with 11,335 and 30,746 check-ins respectively. Unknown genders peak at 5,670 check-ins in Saturday at 12 PM.' captured-sheet='Trips by Gender (Weekday per Hour)' id='5' />
-                  <story-point caption='Checkouts for subscribers peak on Thursday with 259,316 Male, 88,282 female, and 6,082 unknown users.  Checkouts for customers peak on Sunday with 49,285 Male, 27,527 female, and 55,375 unknown users.  ' captured-sheet='Trips by Usertype (Weekday per Hour)' id='6' />
+                  <story-point caption='Subscriber checkouts peak on Thursday with 259,316 Male, 88,282 female, and 6,082 unknown users.  Customer checkouts peak on Sunday with 49,285 Male, 27,527 female, and 55,375 unknown users.  ' captured-sheet='Trips by Usertype (Weekday per Hour)' id='6' />
                   <story-point caption='The 1,372,601 male suscribers outnumber the 493,752 female and 34,006 unknown subscribers. The 191,525 unknown customers outnumber the 157,671 male and 94,679 female customers.' captured-sheet='Gender of Users by Usertype' id='7' />
                   <story-point caption='Most customer users start in Staten Island with Central Park being the next greatest start station.' captured-sheet='Usertypes by Start Stations' id='8'>
                     <capturedDeltas>
@@ -1239,7 +1258,7 @@
     </window>
     <window class='dashboard' maximized='true' name='Citibike Report'>
       <viewpoints />
-      <active id='4' />
+      <active id='5' />
       <simple-id uuid='{44539323-F338-4F3E-9A56-689FFDA589D0}' />
     </window>
   </windows>

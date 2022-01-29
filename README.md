@@ -25,7 +25,7 @@ The Checkout Times tells us that most trips will last 5 minutes, with most check
 ![Checkout Times](https://github.com/Itgotworse26/bikesharing/blob/main/Images/Story%201%20Checkout%20Times.png)
 
 
-Gender and Checkout Times shows that even though male riders outnumber female riders even at their respective peaks (108,087 at 5 PM versus 34,151 at 6 PM), their peaks are close to each other's. This means that peak times are not too different.
+Gender and Checkout Times shows that even though male riders outnumber female riders even at their respective peaks (108,087 at 5 minutes in versus 34,151 at 6 minutes in), their peaks are close to each other's. This means that peak times are not too different.
 
 * Gender and Checkout Times
 
