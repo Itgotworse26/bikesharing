@@ -60,11 +60,11 @@ Usertypes by Gender demonstrates that the 1,372,601 male suscribers outnumber th
 ![Usertypes by Gender](https://github.com/Itgotworse26/bikesharing/blob/main/Images/Story%206%20Usertypes%20by%20Gender.png)
 
 
-Map of Usertpes shows that most customer users start in Staten Island with Central Park being the next greatest start station; the pedestrian nature of both places could explain why must non-subscribers check out bikes at those stations. Both locations not being friendly for outside cars means that most one-time or first-time users will check out bikes from stations there. 
+The Map of Usertypes shows that most customer users start in Staten Island with Central Park being the next greatest start station; the pedestrian nature of both places could explain why must non-subscribers check out bikes at those stations. Both locations not being friendly for outside cars means that most one-time or first-time users will check out bikes from stations there. 
 
-* Map of Usertpes
+* Map of Usertypes
 
-![Map of Usertpes](https://github.com/Itgotworse26/bikesharing/blob/main/Images/Story%207%20Map%20of%20Usertypes.png)
+![Map of Usertypes](https://github.com/Itgotworse26/bikesharing/blob/main/Images/Story%207%20Map%20of%20Usertypes.png)
 
 
 ## Summary
